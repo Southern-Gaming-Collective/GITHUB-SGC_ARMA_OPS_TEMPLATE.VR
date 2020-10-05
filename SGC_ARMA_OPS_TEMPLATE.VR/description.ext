@@ -1,0 +1,53 @@
+//////////--Game Mode--//////////        -----> http://community.bistudio.com/wiki/description.ext#Header_Class
+class header {
+	gametype = COOP;
+	minplayers = 1;
+	maxplayers = 30;
+	playerCountMultipleOf = 1;
+};
+
+
+//////////--Author and Loadscreen information--//////////        -----> https://community.bistudio.com/wiki/Loading_Screens
+author = "SGC";
+OnLoadName = "SGC Arma Ops";
+OnLoadMission = "SouthernGamingCollective.com | SGC Arma Ops";
+loadScreen = "SGCload.jpg";
+
+disableChannels[] = {
+	{
+		0,		// channel ID
+		true,	// disable text chat
+		true	// disable voice chat
+	},
+	{
+		1,		// channel ID
+		false,	// disable text chat
+		true	// disable voice chat
+	},
+	{
+		2,		// channel ID
+		true,	// disable text chat
+		true	// disable voice chat
+	},
+	{
+		3,		// channel ID
+		true,	// disable text chat
+		true	// disable voice chat
+	},
+	{
+		4,		// channel ID
+		false,	// disable text chat
+		true	// disable voice chat
+	},
+	{
+		5,		// channel ID
+		false,	// disable text chat
+		false	// disable voice chat
+	},
+	{
+		6,		// channel ID
+		false,	// disable text chat
+		false	// disable voice chat
+	}
+
+};
